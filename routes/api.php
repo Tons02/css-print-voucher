@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get("print-voucher", [PrintVoucherController::class, 'PrintVoucher']);
+Route::post("print-voucher", [PrintVoucherController::class, 'PrintVoucher']);

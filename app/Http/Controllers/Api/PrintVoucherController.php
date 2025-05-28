@@ -19,7 +19,7 @@ class PrintVoucherController extends Controller
         $contact_number = $request->contact_number;
 
         try {
-            // Use raw COM2 with proper Windows syntax
+
             $localIP = "10.10.12.12";
 
             if ($localIP != $ip) {
